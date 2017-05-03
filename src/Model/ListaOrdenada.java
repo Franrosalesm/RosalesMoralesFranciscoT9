@@ -73,7 +73,7 @@ public class ListaOrdenada<E> extends ArrayList<E> {
  	// es decir, como el enunciado decia que se odenaba descendientemente, ahora se ordena ascendentemente
 	public void reverse(Object element)  {
 		
-				Collections.sort(lista, (Object a, Object b) -> a-b);
+				Collections.sort(Object a, Object b) -> a-b);
  		}
 }
 
